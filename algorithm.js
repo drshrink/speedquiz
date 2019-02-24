@@ -39,6 +39,7 @@ async function start() {
     }
 }
 
+
 // window.setTimeout(alert('hello'), 2000);
 // let human = {
 //     age:10,
