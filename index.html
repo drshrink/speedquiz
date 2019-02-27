@@ -17,11 +17,19 @@
             </div>
             <div>
                 <button id="start" onclick="start()">Start!</button>
+                <button id="stop" onclick="stop()">Stop!</button>
             </div>
             <div class="response">
-                <button id="symbol">Symbol</button>
-                <button id="number">Number</button>
+                <button id="symbol" onclick="symbol_choice()">Symbol</button>
+                <button id="number" onclick="number_choice()">Number</button>
             </div>
+        </div>
+        <div class="debug">
+            <br><br>
+            <textarea style='text-align:left;'name="" id="" cols="80" rows="30" class="debug">console log</textarea>
+        </div>
+        <div class="clock">
+            <input class="clock" type="text" name="" id="">
         </div>
     </body>
 </html>
